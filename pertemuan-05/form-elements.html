@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <h2>The input Element</h2>
+
+    <form action="action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>The select Element</h2>
+
+    <p>The select element defines a drop-down list:</p>
+
+    <form action="action_page.php">
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <input type="submit" />
+    </form>
+
+    <h2>Allow Multiple Selections</h2>
+
+    <p>
+      Use the multiple attribute to allow the user to select more than one
+      value.
+    </p>
+
+    <form action="action_page.php">
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option></select
+      ><br /><br />
+      <input type="submit" />
+    </form>
+
+    <p>
+      Hold down the Ctrl (windows) / Command (Mac) button to select multiple
+      options.
+    </p>
+
+    <h2>Textarea</h2>
+    <p>The textarea element defines a multi-line input field.</p>
+
+    <form action="action_page.php">
+      <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.</textarea
+      >
+      <br /><br />
+      <input type="submit" />
+    </form>
+
+    <h2>The button Element</h2>
+
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+    <h2>Grouping Form Data with Fieldset</h2>
+
+    <p>
+      The fieldset element is used to group related data in a form, and the
+      legend element defines a caption for the fieldset element.
+    </p>
+
+    <form action="action_page.php">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <h2>The datalist Element</h2>
+
+    <p>
+      The datalist element specifies a list of pre-defined options for an input
+      element.
+    </p>
+
+    <form action="action_page.php">
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
