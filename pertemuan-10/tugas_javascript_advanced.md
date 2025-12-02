@@ -7,7 +7,6 @@ Mahasiswa mampu:
 - Menggunakan HTML DOM.
 - Menggunakan event handler.
 - Menggunakan jQuery untuk manipulasi elemen dan efek.
-- Menggabungkan DOM & jQuery dalam proyek kecil.
 
 ---
 
