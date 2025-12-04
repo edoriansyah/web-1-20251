@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Nested if</h1>
+
+    <p id="demo"></p>
+
+    <script>
+      let age = 16;
+      let country = "USA";
+      let text = "You can Not drive!";
+
+      if (country == "USA") {
+        if (age >= 16) {
+          text = "You can drive!";
+        }
+      }
+
+      //   A better solution is to use the logical AND operator:
+      //   if (country == "USA" && age >= 16) {
+      //     text = "You can drive!";
+      //   }
+
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
