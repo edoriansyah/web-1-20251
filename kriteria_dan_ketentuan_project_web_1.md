@@ -77,6 +77,7 @@ Contoh struktur folder:
 - Project dikumpulkan ke dalam repository GitHub.
 - Wajib menyertakan file **README.md** berisi:
   - Judul project
+  - Daftar anggota kelompok
   - Deskripsi website
   - Daftar fitur
   - Teknologi yang digunakan
