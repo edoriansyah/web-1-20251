@@ -42,7 +42,7 @@ Buat file `index.html` lalu tuliskan kode berikut:
   <head>
     <meta charset="UTF-8" />
     <title>Workshop Tailwind CSS</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="p-6">
     <h1 class="text-3xl font-bold text-blue-600">Workshop Tailwind CSS</h1>
